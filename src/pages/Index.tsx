@@ -1,9 +1,8 @@
-
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
-import { MapPin, Airplane, Suitcase } from "lucide-react";
+import { MapPin, Plane, Luggage } from "lucide-react";
 import { useState } from "react";
 
 const Index = () => {
@@ -17,13 +16,13 @@ const Index = () => {
       image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
     },
     {
-      icon: Airplane,
+      icon: Plane,
       title: "Smart Itinerary Builder",
       description: "Create perfect trip plans in minutes with AI-powered suggestions tailored to your interests and travel style.",
       image: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
     },
     {
-      icon: Suitcase,
+      icon: Luggage,
       title: "Local Hidden Gems",
       description: "Access exclusive local insights and discover authentic experiences recommended by fellow travelers.",
       image: "https://images.unsplash.com/photo-1493707553966-283afb57c298?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
@@ -117,7 +116,7 @@ const Index = () => {
         </div>
         <div className="absolute bottom-20 left-20 animate-bounce" style={{ animationDelay: '1s' }}>
           <div className="bg-white rounded-full p-4 shadow-lg">
-            <Airplane className="w-8 h-8 text-green-500" />
+            <Plane className="w-8 h-8 text-green-500" />
           </div>
         </div>
       </section>
