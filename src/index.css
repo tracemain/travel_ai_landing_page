@@ -152,16 +152,16 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Custom green colors for WanderPath brand */
-.bg-wanderpath-green {
+/* Custom green colors for WanderLustify brand */
+.bg-WanderLustify-green {
   background-color: #2ECC71;
 }
 
-.text-wanderpath-green {
+.text-WanderLustify-green {
   color: #2ECC71;
 }
 
-.border-wanderpath-green {
+.border-WanderLustify-green {
   border-color: #2ECC71;
 }
 
@@ -176,7 +176,7 @@ html {
 }
 
 /* Custom button styles */
-.btn-wanderpath {
+.btn-WanderLustify {
   background: linear-gradient(135deg, #2ECC71, #27AE60);
   border: none;
   color: white;
@@ -184,7 +184,7 @@ html {
   transition: all 0.3s ease;
 }
 
-.btn-wanderpath:hover {
+.btn-WanderLustify:hover {
   background: linear-gradient(135deg, #27AE60, #219A52);
   transform: translateY(-2px);
   box-shadow: 0 10px 25px rgba(46, 204, 113, 0.3);

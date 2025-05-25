@@ -33,7 +33,7 @@ const Index = () => {
     {
       name: "Sarah",
       location: "Berlin",
-      text: "WanderPath saved me hours of planning! Found the most amazing local spots in Prague.",
+      text: "WanderLustify saved me hours of planning! Found the most amazing local spots in Prague.",
       avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80"
     },
     {
@@ -129,7 +129,7 @@ const Index = () => {
               Everything You Need for the Perfect Trip
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              From planning to exploring, WanderPath makes European travel effortless and exciting
+              From planning to exploring, WanderLustify makes European travel effortless and exciting
             </p>
           </div>
 
@@ -314,7 +314,7 @@ const Index = () => {
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-2xl font-bold text-green-500 mb-4">WanderPath</h3>
+              <h3 className="text-2xl font-bold text-green-500 mb-4">WanderLustify</h3>
               <p className="text-gray-400">
                 Your perfect European adventure starts here. Smart planning, local insights, 
                 endless possibilities.
@@ -353,7 +353,7 @@ const Index = () => {
           </div>
           
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 WanderPath. All rights reserved. Made with ❤️ for European adventurers.</p>
+            <p>&copy; 2024 WanderLustify. All rights reserved. Made with ❤️ for European adventurers.</p>
           </div>
         </div>
       </footer>
